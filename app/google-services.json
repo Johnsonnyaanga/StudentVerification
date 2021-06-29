@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "80374766213",
+    "firebase_url": "https://soma-c380a.firebaseio.com",
+    "project_id": "soma-c380a",
+    "storage_bucket": "soma-c380a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80374766213:android:a79d92c4a9cae3a6e367ec",
+        "android_client_info": {
+          "package_name": "com.example.soma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80374766213-1kmn6ljsomqsgctdj5roctr4279ou7pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soma",
+            "certificate_hash": "ef2c9a82edcb1fed5b28746c6a0ed9da246e7c2b"
+          }
+        },
+        {
+          "client_id": "80374766213-1me3doo60sfr22sab1305jijomos9bqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjIj2zaoi3ry9_GKCwgCIqRU8M8AfRbr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80374766213-1me3doo60sfr22sab1305jijomos9bqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80374766213:android:d93cd442121fa870e367ec",
+        "android_client_info": {
+          "package_name": "com.example.studentverificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80374766213-1me3doo60sfr22sab1305jijomos9bqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjIj2zaoi3ry9_GKCwgCIqRU8M8AfRbr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80374766213-1me3doo60sfr22sab1305jijomos9bqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

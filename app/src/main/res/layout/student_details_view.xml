@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="3dp"
+    android:elevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/stud_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_person"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/stud_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C025-01-7822/2027"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/stud_regno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C025-01-7822/2027"
+            android:textColor="#474545"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/ic_delete_stud"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_delete"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
